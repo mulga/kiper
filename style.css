@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* width: 900px; */
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+}
+.header {
+	display: flex;
+	/* height: 80px; */
+	color: black;
+	padding: 25px 70px;
+	align-items: center;
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%);
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 400;
+	margin-right: 50px;
+}
+
+.logoImage {
+	width: 164px;
+}
+
+.menu {
+	display: flex;
+	margin-left: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #707070;
+	font-size: 15px;
+	font-weight: 400px;
+	line-height: 27px;
+	padding: 10px 20px;
+	margin-right: 10px;
+}
+
+.menu a:hover {
+	background-color: #274abb;
+	color: white;
+	border-radius: 5px;
+}
+.menu a {
+	display: block;
+	text-transform: uppercase;
+}
+
+.menu .aktive {
+	color: #274abb;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #274abb;
+}
+
+.right a {
+	color: #274abb;
+	border: 1px solid #274abb;
+	border-radius: 5px;
+	padding: 15px 20px;
+}
+
+.right a:hover {
+	background-color: #274abb;
+	color: white;
+	border-radius: 5px;
+}
